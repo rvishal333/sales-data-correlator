@@ -1,0 +1,501 @@
+sale_id,branch,city,customer_type,gender,product_name,product_category,unit_price,quantity,tax,total_price,reward_points
+1,B,Los Angeles,Member,Female,Product A,Category C,91.98,5,32.19,492.09,20
+2,A,Chicago,Member,Female,Product B,Category A,21.45,6,9.01,137.71,40
+3,B,Los Angeles,Member,Male,Product C,Category B,99.43,6,41.76,638.34,40
+4,A,New York,Normal,Male,Product D,Category A,67.49,9,42.52,649.93,0
+5,C,Chicago,Normal,Male,Product E,Category B,75.1,5,26.29,401.79,0
+6,B,Chicago,Normal,Female,Product F,Category C,48.2,1,3.37,51.57,0
+7,A,Chicago,Normal,Female,Product G,Category B,69.52,5,24.33,371.93,0
+8,A,New York,Member,Female,Product H,Category B,8.03,2,1.12,17.18,17
+9,C,Los Angeles,Normal,Male,Product I,Category A,7.6,5,2.66,40.66,0
+10,A,New York,Member,Male,Product J,Category A,60.92,7,29.85,456.29,16
+11,C,Los Angeles,Member,Male,Product K,Category C,82.42,5,28.85,440.95,20
+12,A,Los Angeles,Normal,Male,Product L,Category B,31.95,10,22.37,341.87,0
+13,A,New York,Member,Male,Product M,Category C,19.98,2,2.8,42.76,9
+14,A,Chicago,Normal,Male,Product N,Category B,35.27,6,14.81,226.43,0
+15,A,New York,Normal,Female,Product O,Category B,89.86,5,31.45,480.75,0
+16,B,Los Angeles,Member,Female,Product P,Category A,65.43,8,36.64,560.08,46
+17,A,Chicago,Member,Male,Product Q,Category C,54.0,10,37.8,577.8,5
+18,C,Los Angeles,Member,Female,Product R,Category A,52.66,7,25.8,394.42,40
+19,C,Los Angeles,Normal,Female,Product S,Category A,8.46,9,5.33,81.47,0
+20,A,New York,Normal,Female,Product T,Category B,24.76,6,10.4,158.96,0
+21,A,New York,Normal,Male,Product U,Category C,88.56,8,49.59,758.07,0
+22,C,New York,Member,Female,Product V,Category A,36.47,5,12.76,195.11,37
+23,C,Chicago,Normal,Female,Product W,Category C,74.88,9,47.17,721.09,0
+24,A,Chicago,Normal,Male,Product X,Category A,56.53,10,39.57,604.87,0
+25,B,New York,Normal,Female,Product Y,Category B,57.91,9,36.48,557.67,0
+26,C,New York,Normal,Male,Product Z,Category C,79.01,1,5.53,84.54,0
+27,A,New York,Member,Male,Product A,Category A,38.81,9,24.45,373.74,23
+28,B,New York,Normal,Female,Product B,Category C,27.98,2,3.92,59.88,0
+29,A,New York,Member,Female,Product C,Category C,16.83,2,2.36,36.02,21
+30,A,Los Angeles,Member,Female,Product D,Category B,68.56,2,9.6,146.72,37
+31,B,New York,Member,Female,Product E,Category A,17.2,10,12.04,184.04,42
+32,C,New York,Member,Female,Product F,Category C,79.43,1,5.56,84.99,29
+33,A,Los Angeles,Normal,Female,Product G,Category A,37.35,10,26.15,399.65,0
+34,C,New York,Member,Female,Product H,Category B,44.58,10,31.21,477.01,7
+35,C,New York,Member,Male,Product I,Category A,13.8,3,2.9,44.3,26
+36,A,Chicago,Normal,Female,Product J,Category B,30.57,10,21.4,327.1,0
+37,C,Los Angeles,Normal,Female,Product K,Category C,94.12,10,65.88,1007.08,0
+38,C,Chicago,Normal,Female,Product L,Category A,11.41,8,6.39,97.67,0
+39,A,New York,Normal,Female,Product M,Category C,41.82,2,5.85,89.49,0
+40,C,Chicago,Member,Male,Product N,Category C,88.37,4,24.74,378.22,31
+41,A,Chicago,Normal,Female,Product O,Category A,37.88,3,7.95,121.59,0
+42,B,New York,Normal,Female,Product P,Category B,97.83,3,20.54,314.03,0
+43,B,Chicago,Member,Male,Product Q,Category B,38.85,9,24.48,374.13,18
+44,A,New York,Member,Male,Product R,Category A,7.76,4,2.17,33.21,32
+45,C,Chicago,Normal,Female,Product S,Category C,27.79,6,11.67,178.41,0
+46,C,Chicago,Member,Male,Product T,Category A,54.99,10,38.49,588.39,40
+47,C,Los Angeles,Normal,Female,Product U,Category B,68.89,6,28.93,442.27,0
+48,B,Los Angeles,Normal,Female,Product V,Category A,39.44,9,24.85,379.81,0
+49,B,Los Angeles,Normal,Male,Product W,Category B,12.36,6,5.19,79.35,0
+50,C,Los Angeles,Member,Male,Product X,Category A,49.1,3,10.31,157.61,47
+51,A,New York,Normal,Female,Product Y,Category B,70.69,1,4.95,75.64,0
+52,B,Los Angeles,Normal,Male,Product Z,Category C,28.88,7,14.15,216.31,0
+53,A,New York,Normal,Male,Product A,Category C,19.51,9,12.29,187.88,0
+54,A,New York,Normal,Female,Product B,Category B,57.74,10,40.42,617.82,0
+55,A,Los Angeles,Normal,Female,Product C,Category C,55.01,10,38.51,588.61,0
+56,A,Los Angeles,Member,Male,Product D,Category C,17.11,7,8.38,128.15,35
+57,B,New York,Normal,Female,Product E,Category B,64.39,7,31.55,482.28,0
+58,B,Los Angeles,Member,Male,Product F,Category B,67.43,10,47.2,721.5,46
+59,A,Los Angeles,Member,Female,Product G,Category C,51.92,4,14.54,222.22,13
+60,A,New York,Normal,Male,Product H,Category A,14.82,10,10.37,158.57,0
+61,B,Los Angeles,Normal,Female,Product I,Category C,73.44,10,51.41,785.81,0
+62,B,Los Angeles,Member,Female,Product J,Category B,26.77,3,5.62,85.93,40
+63,A,Chicago,Normal,Female,Product K,Category A,58.83,4,16.47,251.79,0
+64,C,Los Angeles,Normal,Female,Product L,Category A,41.23,2,5.77,88.23,0
+65,B,Los Angeles,Normal,Male,Product M,Category B,34.32,6,14.41,220.33,0
+66,B,New York,Normal,Male,Product N,Category A,8.71,6,3.66,55.92,0
+67,B,Los Angeles,Normal,Male,Product O,Category A,64.5,7,31.61,483.11,0
+68,A,Chicago,Member,Male,Product P,Category C,9.99,7,4.9,74.83,18
+69,B,Chicago,Member,Male,Product Q,Category C,82.73,6,34.75,531.13,49
+70,C,Los Angeles,Member,Female,Product R,Category A,86.34,7,42.31,646.69,38
+71,B,New York,Member,Female,Product S,Category A,56.58,1,3.96,60.54,31
+72,B,Chicago,Member,Male,Product T,Category B,44.99,2,6.3,96.28,25
+73,C,Los Angeles,Normal,Male,Product U,Category C,49.99,9,31.49,481.4,0
+74,C,New York,Member,Female,Product V,Category C,50.57,1,3.54,54.11,45
+75,A,Chicago,Member,Male,Product W,Category B,58.67,9,36.96,564.99,41
+76,C,New York,Member,Female,Product X,Category A,21.04,4,5.89,90.05,50
+77,A,Los Angeles,Normal,Female,Product Y,Category C,47.56,6,19.98,305.34,0
+78,B,Chicago,Member,Male,Product Z,Category A,48.93,3,10.28,157.07,28
+79,A,Los Angeles,Normal,Male,Product A,Category A,83.19,6,34.94,534.08,0
+80,B,Los Angeles,Normal,Female,Product B,Category C,80.49,6,33.81,516.75,0
+81,A,Los Angeles,Member,Male,Product C,Category A,71.68,3,15.05,230.09,15
+82,C,New York,Normal,Male,Product D,Category A,28.09,6,11.8,180.34,0
+83,B,Los Angeles,Normal,Female,Product E,Category A,97.73,3,20.52,313.71,0
+84,B,Chicago,Normal,Male,Product F,Category A,68.76,6,28.88,441.44,0
+85,A,Chicago,Member,Male,Product G,Category A,26.68,6,11.21,171.29,31
+86,B,Los Angeles,Member,Male,Product H,Category C,83.67,3,17.57,268.58,28
+87,B,Chicago,Member,Female,Product I,Category C,17.86,5,6.25,95.55,27
+88,A,Los Angeles,Normal,Male,Product J,Category B,50.05,2,7.01,107.11,0
+89,A,Chicago,Member,Female,Product K,Category B,60.77,3,12.76,195.07,9
+90,C,Los Angeles,Normal,Male,Product L,Category C,24.44,6,10.26,156.9,0
+91,C,Chicago,Member,Male,Product M,Category A,25.6,1,1.79,27.39,44
+92,B,New York,Normal,Male,Product N,Category C,77.89,9,49.07,750.08,0
+93,B,Chicago,Normal,Male,Product O,Category A,58.65,7,28.74,439.29,0
+94,B,New York,Normal,Male,Product P,Category A,83.16,4,23.28,355.92,0
+95,C,Los Angeles,Member,Male,Product Q,Category C,20.25,4,5.67,86.67,14
+96,C,Los Angeles,Member,Female,Product R,Category C,43.83,7,21.48,328.29,17
+97,A,Los Angeles,Member,Female,Product S,Category B,53.18,8,29.78,455.22,40
+98,C,New York,Normal,Male,Product T,Category B,66.88,1,4.68,71.56,0
+99,C,Los Angeles,Normal,Female,Product U,Category A,59.8,1,4.19,63.99,0
+100,C,Chicago,Member,Male,Product V,Category C,9.0,9,5.67,86.67,48
+101,B,Chicago,Member,Male,Product W,Category B,32.01,3,6.72,102.75,5
+102,C,Chicago,Normal,Male,Product X,Category B,36.26,6,15.23,232.79,0
+103,B,New York,Member,Female,Product Y,Category C,78.66,4,22.02,336.66,9
+104,C,Chicago,Member,Male,Product Z,Category B,9.87,4,2.76,42.24,38
+105,C,New York,Normal,Male,Product A,Category B,25.19,1,1.76,26.95,0
+106,B,New York,Member,Female,Product B,Category C,39.46,6,16.57,253.33,42
+107,B,Los Angeles,Normal,Female,Product C,Category B,56.07,8,31.4,479.96,0
+108,C,New York,Normal,Male,Product D,Category A,21.63,9,13.63,208.3,0
+109,A,Chicago,Normal,Male,Product E,Category A,95.95,5,33.58,513.33,0
+110,C,New York,Normal,Female,Product F,Category B,91.33,10,63.93,977.23,0
+111,C,Chicago,Normal,Male,Product G,Category C,33.79,5,11.83,180.78,0
+112,C,Los Angeles,Normal,Male,Product H,Category A,7.35,2,1.03,15.73,0
+113,A,New York,Normal,Female,Product I,Category A,49.96,8,27.98,427.66,0
+114,C,Los Angeles,Normal,Male,Product J,Category C,87.82,1,6.15,93.97,0
+115,A,Chicago,Normal,Male,Product K,Category A,94.01,5,32.9,502.95,0
+116,A,Los Angeles,Normal,Female,Product L,Category A,63.23,4,17.7,270.62,0
+117,A,Chicago,Member,Male,Product M,Category B,85.29,7,41.79,638.82,17
+118,B,Chicago,Normal,Male,Product N,Category B,14.23,4,3.98,60.9,0
+119,B,Chicago,Member,Female,Product O,Category A,64.06,5,22.42,342.72,28
+120,B,Chicago,Normal,Male,Product P,Category B,52.14,2,7.3,111.58,0
+121,A,Chicago,Normal,Male,Product Q,Category C,26.07,4,7.3,111.58,0
+122,B,Los Angeles,Member,Male,Product R,Category A,74.43,8,41.68,637.12,27
+123,C,New York,Member,Male,Product S,Category A,15.67,4,4.39,67.07,22
+124,A,New York,Normal,Female,Product T,Category C,90.38,4,25.31,386.83,0
+125,B,Chicago,Normal,Male,Product U,Category C,50.61,3,10.63,162.46,0
+126,C,New York,Member,Male,Product V,Category C,95.37,3,20.03,306.14,37
+127,B,Los Angeles,Member,Female,Product W,Category A,93.52,8,52.37,800.53,24
+128,A,Los Angeles,Normal,Female,Product X,Category B,40.0,1,2.8,42.8,0
+129,C,Chicago,Member,Male,Product Y,Category B,35.55,7,17.42,266.27,36
+130,A,Los Angeles,Normal,Male,Product Z,Category A,22.81,6,9.58,146.44,0
+131,C,New York,Normal,Male,Product A,Category A,93.39,1,6.54,99.93,0
+132,B,New York,Member,Male,Product B,Category B,25.08,9,15.8,241.52,49
+133,B,Chicago,Member,Female,Product C,Category A,8.4,8,4.7,71.9,12
+134,C,Chicago,Normal,Male,Product D,Category A,38.5,1,2.7,41.2,0
+135,B,Los Angeles,Member,Female,Product E,Category B,87.91,9,55.38,846.57,41
+136,B,Los Angeles,Normal,Male,Product F,Category A,39.18,4,10.97,167.69,0
+137,A,New York,Normal,Female,Product G,Category C,31.18,8,17.46,266.9,0
+138,B,Chicago,Member,Male,Product H,Category A,38.2,4,10.7,163.5,21
+139,B,New York,Normal,Male,Product I,Category A,50.31,1,3.52,53.83,0
+140,A,Los Angeles,Normal,Female,Product J,Category A,40.79,10,28.55,436.45,0
+141,C,New York,Member,Female,Product K,Category B,8.54,9,5.38,82.24,27
+142,B,New York,Member,Male,Product L,Category C,63.62,10,44.53,680.73,12
+143,C,New York,Member,Male,Product M,Category A,10.33,4,2.89,44.21,49
+144,C,New York,Member,Male,Product N,Category A,76.88,2,10.76,164.52,38
+145,A,Los Angeles,Member,Female,Product O,Category B,72.35,2,10.13,154.83,35
+146,A,New York,Normal,Female,Product P,Category A,88.23,10,61.76,944.06,0
+147,C,Los Angeles,Normal,Female,Product Q,Category A,44.56,1,3.12,47.68,0
+148,B,Los Angeles,Member,Female,Product R,Category B,90.42,7,44.31,677.25,24
+149,B,Chicago,Member,Female,Product S,Category B,94.32,8,52.82,807.38,50
+150,B,Los Angeles,Normal,Male,Product T,Category B,46.77,5,16.37,250.22,0
+151,C,Chicago,Member,Male,Product U,Category A,62.95,1,4.41,67.36,41
+152,A,Chicago,Normal,Male,Product V,Category A,44.06,1,3.08,47.14,0
+153,B,New York,Normal,Female,Product W,Category B,32.71,1,2.29,35.0,0
+154,C,Los Angeles,Member,Female,Product X,Category C,72.56,6,30.48,465.84,48
+155,A,Los Angeles,Normal,Female,Product Y,Category B,53.38,3,11.21,171.35,0
+156,C,Chicago,Member,Female,Product Z,Category C,31.66,5,11.08,169.38,21
+157,B,New York,Member,Male,Product A,Category C,93.69,5,32.79,501.24,45
+158,A,Los Angeles,Normal,Female,Product B,Category B,68.52,10,47.96,733.16,0
+159,B,Los Angeles,Member,Female,Product C,Category B,58.76,4,16.45,251.49,7
+160,B,Chicago,Member,Female,Product D,Category C,91.1,10,63.77,974.77,16
+161,A,New York,Member,Male,Product E,Category A,32.42,1,2.27,34.69,24
+162,C,Chicago,Normal,Male,Product F,Category C,84.24,2,11.79,180.27,0
+163,B,Chicago,Member,Female,Product G,Category C,89.38,9,56.31,860.73,37
+164,B,Los Angeles,Normal,Female,Product H,Category B,85.27,3,17.91,273.72,0
+165,A,New York,Member,Male,Product I,Category C,92.26,6,38.75,592.31,30
+166,C,New York,Normal,Female,Product J,Category B,5.21,1,0.36,5.57,0
+167,B,New York,Member,Female,Product K,Category A,13.49,4,3.78,57.74,30
+168,C,Chicago,Normal,Female,Product L,Category B,91.22,8,51.08,780.84,0
+169,A,Chicago,Normal,Female,Product M,Category A,35.9,6,15.08,230.48,0
+170,C,Chicago,Normal,Male,Product N,Category B,56.74,10,39.72,607.12,0
+171,B,New York,Normal,Male,Product O,Category B,25.43,9,16.02,244.89,0
+172,C,Chicago,Normal,Male,Product P,Category A,61.59,3,12.93,197.7,0
+173,C,Chicago,Member,Female,Product Q,Category C,19.14,3,4.02,61.44,49
+174,A,Los Angeles,Member,Female,Product R,Category B,97.69,4,27.35,418.11,14
+175,B,Los Angeles,Member,Male,Product S,Category C,11.35,8,6.36,97.16,26
+176,C,Chicago,Member,Male,Product T,Category B,48.35,3,10.15,155.2,24
+177,A,Los Angeles,Member,Female,Product U,Category B,78.58,8,44.0,672.64,30
+178,B,New York,Member,Male,Product V,Category A,13.05,2,1.83,27.93,46
+179,C,Chicago,Normal,Male,Product W,Category B,72.53,6,30.46,465.64,0
+180,A,Chicago,Member,Male,Product X,Category A,91.47,7,44.82,685.11,23
+181,B,Chicago,Normal,Male,Product Y,Category A,90.29,4,25.28,386.44,0
+182,A,New York,Member,Male,Product Z,Category C,8.21,6,3.45,52.71,29
+183,B,Los Angeles,Member,Male,Product A,Category C,7.87,1,0.55,8.42,50
+184,A,Los Angeles,Member,Female,Product B,Category A,63.63,2,8.91,136.17,23
+185,C,Los Angeles,Normal,Male,Product C,Category B,74.35,5,26.02,397.77,0
+186,A,New York,Member,Female,Product D,Category C,46.0,6,19.32,295.32,25
+187,B,Los Angeles,Normal,Male,Product E,Category B,69.74,1,4.88,74.62,0
+188,A,Los Angeles,Member,Male,Product F,Category B,51.3,7,25.14,384.24,46
+189,A,New York,Normal,Male,Product G,Category A,96.29,1,6.74,103.03,0
+190,C,New York,Member,Male,Product H,Category B,40.21,8,22.52,344.2,42
+191,C,New York,Normal,Female,Product I,Category C,32.08,6,13.47,205.95,0
+192,C,Los Angeles,Normal,Male,Product J,Category A,18.29,8,10.24,156.56,0
+193,C,New York,Member,Male,Product K,Category A,27.0,7,13.23,202.23,30
+194,C,Chicago,Normal,Male,Product L,Category B,12.01,9,7.57,115.66,0
+195,A,Los Angeles,Normal,Female,Product M,Category B,66.72,2,9.34,142.78,0
+196,A,New York,Member,Male,Product N,Category C,85.97,3,18.05,275.96,20
+197,A,Chicago,Normal,Female,Product O,Category B,38.38,5,13.43,205.33,0
+198,B,Los Angeles,Member,Female,Product P,Category C,89.38,4,25.03,382.55,43
+199,B,New York,Member,Male,Product Q,Category B,24.99,2,3.5,53.48,7
+200,C,Chicago,Member,Female,Product R,Category B,33.35,7,16.34,249.79,14
+201,A,New York,Member,Male,Product S,Category C,70.06,3,14.71,224.89,12
+202,B,Los Angeles,Normal,Male,Product T,Category A,16.87,1,1.18,18.05,0
+203,C,Los Angeles,Member,Female,Product U,Category B,88.99,3,18.69,285.66,29
+204,A,Chicago,Member,Female,Product V,Category A,20.5,4,5.74,87.74,45
+205,B,New York,Normal,Female,Product W,Category B,21.09,4,5.91,90.27,0
+206,A,New York,Member,Female,Product X,Category B,50.15,3,10.53,160.98,45
+207,B,New York,Normal,Male,Product Y,Category A,93.13,7,45.63,697.54,0
+208,B,Chicago,Member,Female,Product Z,Category C,59.61,6,25.04,382.7,29
+209,C,Chicago,Normal,Male,Product A,Category C,32.29,1,2.26,34.55,0
+210,C,Los Angeles,Member,Male,Product B,Category C,70.5,3,14.81,226.31,36
+211,A,Chicago,Normal,Female,Product C,Category B,10.74,1,0.75,11.49,0
+212,C,Chicago,Member,Female,Product D,Category B,59.75,7,29.28,447.53,46
+213,B,New York,Normal,Male,Product E,Category C,73.19,1,5.12,78.31,0
+214,A,New York,Member,Male,Product F,Category B,74.19,3,15.58,238.15,8
+215,B,Chicago,Member,Male,Product G,Category A,92.28,3,19.38,296.22,41
+216,C,Los Angeles,Member,Female,Product H,Category A,58.95,7,28.89,441.54,31
+217,A,Chicago,Normal,Male,Product I,Category B,95.26,1,6.67,101.93,0
+218,B,Chicago,Member,Female,Product J,Category B,86.99,3,18.27,279.24,8
+219,B,Chicago,Member,Male,Product K,Category B,8.05,3,1.69,25.84,34
+220,C,New York,Normal,Male,Product L,Category C,29.6,7,14.5,221.7,0
+221,A,Chicago,Normal,Female,Product M,Category A,68.06,9,42.88,655.42,0
+222,A,Chicago,Member,Female,Product N,Category C,17.64,4,4.94,75.5,15
+223,A,New York,Member,Female,Product O,Category C,67.57,9,42.57,650.7,37
+224,B,Los Angeles,Member,Male,Product P,Category A,47.47,6,19.94,304.76,33
+225,B,New York,Normal,Female,Product Q,Category C,48.4,4,13.55,207.15,0
+226,B,Los Angeles,Member,Female,Product R,Category C,6.08,4,1.7,26.02,20
+227,B,Chicago,Member,Male,Product S,Category B,73.5,10,51.45,786.45,42
+228,B,New York,Member,Male,Product T,Category C,15.78,10,11.05,168.85,21
+229,A,New York,Normal,Female,Product U,Category C,82.05,9,51.69,790.14,0
+230,C,New York,Member,Male,Product V,Category C,75.87,10,53.11,811.81,36
+231,C,Chicago,Normal,Female,Product W,Category C,7.56,7,3.7,56.62,0
+232,C,Los Angeles,Member,Male,Product X,Category B,55.86,7,27.37,418.39,41
+233,B,New York,Normal,Female,Product Y,Category C,84.39,6,35.44,541.78,0
+234,C,New York,Member,Male,Product Z,Category C,30.91,3,6.49,99.22,44
+235,C,Chicago,Normal,Female,Product A,Category B,84.66,7,41.48,634.1,0
+236,C,Chicago,Normal,Male,Product B,Category B,71.14,9,44.82,685.08,0
+237,B,New York,Normal,Male,Product C,Category C,29.78,4,8.34,127.46,0
+238,A,New York,Member,Male,Product D,Category C,76.07,9,47.92,732.55,27
+239,C,Los Angeles,Member,Male,Product E,Category C,23.56,6,9.9,151.26,39
+240,C,New York,Normal,Female,Product F,Category B,80.61,1,5.64,86.25,0
+241,C,Chicago,Normal,Female,Product G,Category C,56.47,1,3.95,60.42,0
+242,A,New York,Normal,Male,Product H,Category B,40.98,10,28.69,438.49,0
+243,A,Los Angeles,Member,Female,Product I,Category A,43.26,3,9.08,138.86,12
+244,C,Los Angeles,Normal,Male,Product J,Category C,47.74,8,26.73,408.65,0
+245,C,New York,Member,Female,Product K,Category A,9.62,9,6.06,92.64,36
+246,C,New York,Normal,Female,Product L,Category C,64.39,9,40.57,620.08,0
+247,B,New York,Normal,Male,Product M,Category C,16.99,7,8.33,127.26,0
+248,A,Chicago,Normal,Male,Product N,Category B,97.33,8,54.5,833.14,0
+249,B,Los Angeles,Normal,Male,Product O,Category B,61.06,5,21.37,326.67,0
+250,C,Los Angeles,Member,Female,Product P,Category B,13.22,8,7.4,113.16,20
+251,C,New York,Member,Female,Product Q,Category C,60.58,4,16.96,259.28,22
+252,A,Los Angeles,Normal,Male,Product R,Category C,46.8,2,6.55,100.15,0
+253,A,Chicago,Normal,Male,Product S,Category C,45.84,5,16.04,245.24,0
+254,B,Los Angeles,Normal,Male,Product T,Category B,34.67,6,14.56,222.58,0
+255,C,New York,Member,Male,Product U,Category A,54.57,1,3.82,58.39,25
+256,A,Los Angeles,Normal,Female,Product V,Category B,62.65,6,26.31,402.21,0
+257,B,Los Angeles,Member,Male,Product W,Category B,95.17,4,26.65,407.33,30
+258,C,Chicago,Member,Female,Product X,Category A,86.06,5,30.12,460.42,24
+259,A,New York,Member,Female,Product Y,Category C,69.11,8,38.7,591.58,37
+260,A,Los Angeles,Normal,Female,Product Z,Category C,18.43,3,3.87,59.16,0
+261,B,Los Angeles,Member,Male,Product A,Category B,84.89,1,5.94,90.83,50
+262,B,New York,Member,Male,Product B,Category C,63.08,5,22.08,337.48,38
+263,A,Chicago,Member,Female,Product C,Category A,88.35,4,24.74,378.14,11
+264,C,Los Angeles,Normal,Male,Product D,Category C,31.34,5,10.97,167.67,0
+265,C,New York,Member,Male,Product E,Category A,13.33,1,0.93,14.26,26
+266,B,New York,Member,Male,Product F,Category B,80.45,4,22.53,344.33,30
+267,C,New York,Member,Male,Product G,Category C,83.66,6,35.14,537.1,11
+268,C,Los Angeles,Normal,Male,Product H,Category C,19.33,6,8.12,124.1,0
+269,A,Chicago,Normal,Female,Product I,Category A,11.83,2,1.66,25.32,0
+270,B,Chicago,Normal,Male,Product J,Category B,21.7,2,3.04,46.44,0
+271,A,Los Angeles,Normal,Female,Product K,Category A,62.81,3,13.19,201.62,0
+272,B,New York,Member,Female,Product L,Category B,26.73,5,9.36,143.01,50
+273,C,New York,Member,Female,Product M,Category A,95.35,8,53.4,816.2,34
+274,B,Chicago,Member,Female,Product N,Category C,72.08,5,25.23,385.63,5
+275,A,Los Angeles,Normal,Female,Product O,Category A,18.36,5,6.43,98.23,0
+276,A,Chicago,Member,Male,Product P,Category B,78.87,1,5.52,84.39,28
+277,A,New York,Normal,Male,Product Q,Category B,79.04,9,49.8,761.16,0
+278,B,Los Angeles,Member,Male,Product R,Category B,70.79,6,29.73,454.47,31
+279,B,New York,Member,Female,Product S,Category A,66.15,7,32.41,495.46,48
+280,C,Los Angeles,Normal,Female,Product T,Category B,74.41,8,41.67,636.95,0
+281,C,Los Angeles,Normal,Male,Product U,Category A,29.13,5,10.2,155.85,0
+282,B,New York,Member,Female,Product V,Category B,90.42,5,31.65,483.75,41
+283,A,Chicago,Normal,Female,Product W,Category B,19.59,9,12.34,188.65,0
+284,C,Los Angeles,Normal,Female,Product X,Category A,64.97,1,4.55,69.52,0
+285,A,Chicago,Normal,Female,Product Y,Category C,28.71,8,16.08,245.76,0
+286,B,Chicago,Member,Female,Product Z,Category A,99.4,6,41.75,638.15,21
+287,B,New York,Member,Female,Product A,Category A,58.26,4,16.31,249.35,33
+288,B,Los Angeles,Normal,Male,Product B,Category C,37.71,3,7.92,121.05,0
+289,C,Chicago,Member,Male,Product C,Category C,24.61,10,17.23,263.33,39
+290,C,New York,Normal,Female,Product D,Category A,87.32,2,12.22,186.86,0
+291,C,Chicago,Normal,Female,Product E,Category C,74.8,2,10.47,160.07,0
+292,B,New York,Member,Male,Product F,Category B,69.55,7,34.08,520.93,40
+293,A,Los Angeles,Normal,Male,Product G,Category A,29.33,10,20.53,313.83,0
+294,C,New York,Normal,Male,Product H,Category C,97.51,3,20.48,313.01,0
+295,C,Chicago,Member,Male,Product I,Category C,83.71,8,46.88,716.56,28
+296,A,Los Angeles,Member,Male,Product J,Category A,60.33,3,12.67,193.66,6
+297,C,Los Angeles,Member,Female,Product K,Category C,65.39,4,18.31,279.87,37
+298,B,New York,Normal,Female,Product L,Category B,6.29,4,1.76,26.92,0
+299,B,New York,Normal,Female,Product M,Category C,44.31,4,12.41,189.65,0
+300,B,Los Angeles,Normal,Female,Product N,Category B,6.76,3,1.42,21.7,0
+301,A,New York,Member,Male,Product O,Category B,69.98,5,24.49,374.39,10
+302,C,Chicago,Member,Female,Product P,Category A,92.56,1,6.48,99.04,16
+303,B,Chicago,Member,Male,Product Q,Category C,39.26,9,24.73,378.07,32
+304,A,Chicago,Normal,Male,Product R,Category C,85.42,8,47.84,731.2,0
+305,B,Los Angeles,Normal,Male,Product S,Category A,93.49,6,39.27,600.21,0
+306,C,New York,Member,Male,Product T,Category C,39.86,10,27.9,426.5,15
+307,C,Chicago,Normal,Female,Product U,Category A,34.38,2,4.81,73.57,0
+308,A,Chicago,Normal,Female,Product V,Category A,35.04,1,2.45,37.49,0
+309,A,New York,Normal,Male,Product W,Category B,15.62,4,4.37,66.85,0
+310,A,Los Angeles,Member,Female,Product X,Category B,10.75,1,0.75,11.5,9
+311,B,New York,Normal,Female,Product Y,Category A,33.57,5,11.75,179.6,0
+312,B,Chicago,Member,Male,Product Z,Category A,53.53,7,26.23,400.94,32
+313,C,Chicago,Member,Male,Product A,Category C,50.09,2,7.01,107.19,20
+314,C,Chicago,Normal,Male,Product B,Category A,63.18,4,17.69,270.41,0
+315,C,New York,Member,Female,Product C,Category C,66.04,3,13.87,211.99,8
+316,A,Los Angeles,Normal,Male,Product D,Category C,88.14,7,43.19,660.17,0
+317,A,New York,Member,Male,Product E,Category C,34.83,8,19.5,298.14,11
+318,C,Chicago,Normal,Female,Product F,Category B,73.57,8,41.2,629.76,0
+319,B,New York,Member,Male,Product G,Category A,45.76,6,19.22,293.78,12
+320,B,Los Angeles,Member,Female,Product H,Category B,44.17,1,3.09,47.26,6
+321,C,New York,Normal,Female,Product I,Category B,45.15,8,25.28,386.48,0
+322,C,Chicago,Member,Male,Product J,Category C,48.47,3,10.18,155.59,40
+323,C,New York,Member,Female,Product K,Category C,61.33,10,42.93,656.23,29
+324,B,New York,Member,Female,Product L,Category B,49.4,10,34.58,528.58,45
+325,A,New York,Normal,Male,Product M,Category A,51.58,4,14.44,220.76,0
+326,A,Chicago,Member,Male,Product N,Category A,16.64,6,6.99,106.83,7
+327,C,Los Angeles,Member,Male,Product O,Category C,58.37,8,32.69,499.65,10
+328,B,Chicago,Normal,Female,Product P,Category C,70.15,8,39.28,600.48,0
+329,B,Los Angeles,Member,Male,Product Q,Category B,37.44,9,23.59,360.55,22
+330,B,Chicago,Member,Male,Product R,Category B,67.87,8,38.01,580.97,5
+331,C,Los Angeles,Normal,Female,Product S,Category A,68.19,3,14.32,218.89,0
+332,A,Los Angeles,Member,Female,Product T,Category C,99.51,6,41.79,638.85,16
+333,B,Chicago,Normal,Female,Product U,Category B,86.89,6,36.49,557.83,0
+334,B,Los Angeles,Member,Female,Product V,Category B,72.05,5,25.22,385.47,27
+335,B,New York,Normal,Male,Product W,Category A,17.02,1,1.19,18.21,0
+336,B,Los Angeles,Member,Male,Product X,Category B,91.52,5,32.03,489.63,33
+337,A,New York,Normal,Female,Product Y,Category C,18.66,10,13.06,199.66,0
+338,B,New York,Normal,Female,Product Z,Category A,44.88,1,3.14,48.02,0
+339,A,New York,Normal,Male,Product A,Category A,8.03,6,3.37,51.55,0
+340,C,Los Angeles,Normal,Male,Product B,Category B,41.46,10,29.02,443.62,0
+341,C,New York,Member,Female,Product C,Category B,9.49,10,6.64,101.54,17
+342,A,Chicago,Normal,Male,Product D,Category A,47.6,10,33.32,509.32,0
+343,A,New York,Normal,Male,Product E,Category A,65.32,1,4.57,69.89,0
+344,A,Chicago,Member,Male,Product F,Category C,53.75,2,7.53,115.03,29
+345,A,Los Angeles,Member,Female,Product G,Category C,61.96,3,13.01,198.89,23
+346,C,New York,Normal,Female,Product H,Category A,7.28,5,2.55,38.95,0
+347,A,Los Angeles,Normal,Female,Product I,Category B,12.48,8,6.99,106.83,0
+348,A,New York,Normal,Male,Product J,Category B,18.71,8,10.48,160.16,0
+349,A,Chicago,Normal,Male,Product K,Category C,88.39,2,12.37,189.15,0
+350,C,Los Angeles,Member,Female,Product L,Category A,20.66,8,11.57,176.85,17
+351,B,New York,Normal,Male,Product M,Category C,25.0,2,3.5,53.5,0
+352,A,New York,Normal,Female,Product N,Category B,89.8,6,37.72,576.52,0
+353,A,Chicago,Normal,Female,Product O,Category C,57.58,3,12.09,184.83,0
+354,A,Chicago,Member,Female,Product P,Category A,75.84,9,47.78,730.34,14
+355,A,Los Angeles,Member,Female,Product Q,Category B,29.0,8,16.24,248.24,12
+356,A,Los Angeles,Normal,Female,Product R,Category C,60.75,9,38.27,585.02,0
+357,B,New York,Normal,Female,Product S,Category B,70.96,6,29.8,455.56,0
+358,B,New York,Member,Female,Product T,Category C,73.1,2,10.23,156.43,9
+359,B,Chicago,Member,Male,Product U,Category B,62.21,3,13.06,199.69,11
+360,A,Chicago,Member,Female,Product V,Category A,75.12,1,5.26,80.38,22
+361,C,Los Angeles,Member,Male,Product W,Category A,50.76,1,3.55,54.31,26
+362,A,Chicago,Normal,Female,Product X,Category B,54.58,10,38.21,584.01,0
+363,B,Chicago,Member,Female,Product Y,Category A,28.79,8,16.12,246.44,41
+364,B,New York,Normal,Male,Product Z,Category A,56.15,7,27.51,420.56,0
+365,B,Los Angeles,Member,Male,Product A,Category B,96.67,1,6.77,103.44,13
+366,B,New York,Normal,Male,Product B,Category C,64.51,2,9.03,138.05,0
+367,A,Los Angeles,Normal,Male,Product C,Category A,44.95,7,22.03,336.68,0
+368,B,Los Angeles,Normal,Female,Product D,Category B,99.18,2,13.89,212.25,0
+369,A,Los Angeles,Member,Male,Product E,Category B,43.88,2,6.14,93.9,14
+370,B,New York,Normal,Male,Product F,Category C,91.58,9,57.7,881.92,0
+371,A,New York,Normal,Female,Product G,Category B,17.74,5,6.21,94.91,0
+372,A,Chicago,Member,Female,Product H,Category A,95.7,7,46.89,716.79,42
+373,C,Chicago,Member,Male,Product I,Category B,95.16,9,59.95,916.39,26
+374,B,Los Angeles,Member,Female,Product J,Category A,48.87,8,27.37,418.33,29
+375,B,Chicago,Member,Male,Product K,Category A,47.57,10,33.3,509.0,5
+376,B,Los Angeles,Normal,Male,Product L,Category C,55.77,5,19.52,298.37,0
+377,C,Los Angeles,Normal,Male,Product M,Category B,29.42,7,14.42,220.36,0
+378,A,New York,Member,Female,Product N,Category C,14.86,1,1.04,15.9,22
+379,A,Los Angeles,Normal,Female,Product O,Category B,19.81,2,2.77,42.39,0
+380,B,New York,Normal,Male,Product P,Category B,93.49,5,32.72,500.17,0
+381,A,Chicago,Member,Male,Product Q,Category A,97.52,8,54.61,834.77,28
+382,A,Chicago,Normal,Male,Product R,Category C,37.91,4,10.61,162.25,0
+383,B,New York,Member,Male,Product S,Category C,59.29,7,29.05,444.08,39
+384,A,New York,Member,Female,Product T,Category B,84.3,7,41.31,631.41,41
+385,B,Chicago,Member,Male,Product U,Category B,36.52,2,5.11,78.15,28
+386,A,Los Angeles,Normal,Male,Product V,Category A,24.79,10,17.35,265.25,0
+387,C,New York,Member,Female,Product W,Category B,64.55,9,40.67,621.62,46
+388,B,New York,Member,Female,Product X,Category B,65.59,8,36.73,561.45,39
+389,C,New York,Member,Female,Product Y,Category B,21.01,4,5.88,89.92,6
+390,B,Los Angeles,Member,Female,Product Z,Category B,95.1,9,59.91,915.81,24
+391,B,Los Angeles,Normal,Female,Product A,Category C,58.78,7,28.8,440.26,0
+392,B,Chicago,Member,Female,Product B,Category A,7.28,1,0.51,7.79,42
+393,A,Los Angeles,Normal,Male,Product C,Category C,32.39,4,9.07,138.63,0
+394,C,Los Angeles,Member,Male,Product D,Category C,16.78,8,9.4,143.64,35
+395,A,New York,Member,Female,Product E,Category B,19.85,5,6.95,106.2,18
+396,A,Chicago,Normal,Male,Product F,Category B,28.19,1,1.97,30.16,0
+397,A,Chicago,Normal,Male,Product G,Category C,5.64,7,2.76,42.24,0
+398,A,Los Angeles,Normal,Male,Product H,Category C,57.07,3,11.98,183.19,0
+399,A,Chicago,Member,Female,Product I,Category B,33.71,10,23.6,360.7,23
+400,A,Los Angeles,Normal,Female,Product J,Category C,92.26,9,58.12,888.46,0
+401,C,Chicago,Normal,Male,Product K,Category B,34.06,1,2.38,36.44,0
+402,B,New York,Normal,Female,Product L,Category A,40.34,5,14.12,215.82,0
+403,A,Chicago,Normal,Male,Product M,Category C,10.11,2,1.42,21.64,0
+404,C,Chicago,Member,Female,Product N,Category A,96.24,6,40.42,617.86,39
+405,C,Chicago,Member,Female,Product O,Category B,35.75,6,15.02,229.52,8
+406,A,New York,Member,Male,Product P,Category B,8.79,3,1.85,28.22,41
+407,A,New York,Normal,Male,Product Q,Category B,53.87,5,18.85,288.2,0
+408,C,New York,Normal,Female,Product R,Category B,69.07,5,24.17,369.52,0
+409,A,Los Angeles,Member,Female,Product S,Category C,96.24,6,40.42,617.86,5
+410,B,Chicago,Normal,Female,Product T,Category A,82.45,5,28.86,441.11,0
+411,A,Los Angeles,Normal,Female,Product U,Category C,93.63,8,52.43,801.47,0
+412,C,New York,Member,Male,Product V,Category B,65.99,7,32.34,494.27,34
+413,A,Chicago,Member,Female,Product W,Category C,18.84,10,13.19,201.59,20
+414,C,New York,Normal,Female,Product X,Category C,91.71,10,64.2,981.3,0
+415,C,New York,Normal,Female,Product Y,Category A,81.52,8,45.65,697.81,0
+416,C,Chicago,Member,Male,Product Z,Category B,18.29,7,8.96,136.99,9
+417,B,Chicago,Normal,Female,Product A,Category C,65.25,6,27.41,418.91,0
+418,C,Los Angeles,Member,Female,Product B,Category C,57.11,1,4.0,61.11,13
+419,B,Chicago,Normal,Male,Product C,Category B,29.17,4,8.17,124.85,0
+420,A,New York,Normal,Male,Product D,Category A,83.06,10,58.14,888.74,0
+421,C,Chicago,Member,Male,Product E,Category B,97.9,10,68.53,1047.53,24
+422,A,Los Angeles,Normal,Male,Product F,Category B,79.43,9,50.04,764.91,0
+423,C,New York,Member,Female,Product G,Category B,40.59,5,14.21,217.16,7
+424,B,Chicago,Normal,Female,Product H,Category B,56.71,6,23.82,364.08,0
+425,C,New York,Member,Female,Product I,Category A,97.26,7,47.66,728.48,29
+426,B,Los Angeles,Member,Male,Product J,Category C,77.84,2,10.9,166.58,43
+427,B,New York,Member,Male,Product K,Category B,89.76,2,12.57,192.09,48
+428,B,Chicago,Member,Male,Product L,Category B,80.7,7,39.54,604.44,36
+429,C,New York,Member,Female,Product M,Category A,94.34,2,13.21,201.89,38
+430,A,New York,Normal,Male,Product N,Category C,10.09,9,6.36,97.17,0
+431,B,New York,Member,Male,Product O,Category A,40.17,2,5.62,85.96,7
+432,C,Chicago,Member,Female,Product P,Category A,60.37,5,21.13,322.98,25
+433,C,Chicago,Normal,Female,Product Q,Category C,23.91,6,10.04,153.5,0
+434,C,New York,Normal,Male,Product R,Category C,97.76,8,54.75,836.83,0
+435,C,Chicago,Normal,Male,Product S,Category A,42.51,1,2.98,45.49,0
+436,A,Los Angeles,Member,Female,Product T,Category C,72.58,8,40.64,621.28,31
+437,B,New York,Member,Male,Product U,Category C,94.62,3,19.87,303.73,22
+438,B,New York,Member,Female,Product V,Category A,47.72,6,20.04,306.36,47
+439,A,Los Angeles,Normal,Male,Product W,Category C,15.27,6,6.41,98.03,0
+440,C,New York,Member,Male,Product X,Category C,72.36,4,20.26,309.7,46
+441,A,Chicago,Member,Male,Product Y,Category A,40.01,7,19.6,299.67,21
+442,B,Chicago,Member,Female,Product Z,Category B,29.83,7,14.62,223.43,11
+443,C,Los Angeles,Member,Female,Product A,Category C,51.56,1,3.61,55.17,14
+444,C,Chicago,Member,Male,Product B,Category C,86.07,5,30.12,460.47,32
+445,C,New York,Member,Female,Product C,Category B,30.08,4,8.42,128.74,19
+446,A,Chicago,Normal,Male,Product D,Category C,59.65,10,41.76,638.26,0
+447,B,New York,Normal,Female,Product E,Category B,87.55,1,6.13,93.68,0
+448,B,New York,Member,Male,Product F,Category B,74.34,8,41.63,636.35,7
+449,A,New York,Normal,Male,Product G,Category C,41.8,3,8.78,134.18,0
+450,B,Los Angeles,Member,Female,Product H,Category C,64.67,6,27.16,415.18,34
+451,C,Los Angeles,Member,Male,Product I,Category A,81.68,2,11.44,174.8,26
+452,C,Chicago,Normal,Male,Product J,Category B,95.52,10,66.86,1022.06,0
+453,B,Los Angeles,Member,Female,Product K,Category A,37.21,9,23.44,358.33,48
+454,C,Chicago,Member,Male,Product L,Category A,5.1,2,0.71,10.91,15
+455,C,Chicago,Member,Male,Product M,Category C,28.57,3,6.0,91.71,14
+456,B,Los Angeles,Normal,Female,Product N,Category B,67.73,2,9.48,144.94,0
+457,B,New York,Normal,Male,Product O,Category C,67.15,5,23.5,359.25,0
+458,A,New York,Normal,Male,Product P,Category C,15.67,4,4.39,67.07,0
+459,A,Chicago,Normal,Female,Product Q,Category A,37.89,2,5.3,81.08,0
+460,C,Chicago,Member,Female,Product R,Category B,93.37,8,52.29,799.25,5
+461,B,Chicago,Member,Female,Product S,Category B,86.63,1,6.06,92.69,6
+462,C,New York,Member,Male,Product T,Category A,36.89,3,7.75,118.42,13
+463,A,New York,Normal,Female,Product U,Category A,71.3,4,19.96,305.16,0
+464,C,Chicago,Normal,Male,Product V,Category A,24.54,7,12.02,183.8,0
+465,A,New York,Member,Female,Product W,Category C,15.98,7,7.83,119.69,11
+466,C,New York,Member,Female,Product X,Category A,88.62,2,12.41,189.65,43
+467,A,New York,Member,Female,Product Y,Category B,44.19,6,18.56,283.7,40
+468,A,Los Angeles,Normal,Male,Product Z,Category C,95.51,8,53.49,817.57,0
+469,A,New York,Normal,Female,Product A,Category A,59.23,8,33.17,507.01,0
+470,A,Chicago,Member,Female,Product B,Category A,57.82,3,12.14,185.6,29
+471,B,Chicago,Normal,Male,Product C,Category A,44.94,7,22.02,336.6,0
+472,B,Los Angeles,Member,Male,Product D,Category C,38.96,10,27.27,416.87,16
+473,A,New York,Normal,Male,Product E,Category A,22.08,3,4.64,70.88,0
+474,C,Los Angeles,Member,Male,Product F,Category B,87.77,3,18.43,281.74,31
+475,B,Los Angeles,Normal,Male,Product G,Category A,70.71,3,14.85,226.98,0
+476,B,New York,Member,Female,Product H,Category A,72.48,4,20.29,310.21,42
+477,C,Los Angeles,Member,Male,Product I,Category C,27.61,9,17.39,265.88,23
+478,A,New York,Normal,Female,Product J,Category C,12.15,5,4.25,65.0,0
+479,B,Chicago,Member,Male,Product K,Category A,35.66,7,17.47,267.09,18
+480,B,Los Angeles,Member,Female,Product L,Category B,83.6,6,35.11,536.71,18
+481,A,Los Angeles,Member,Male,Product M,Category B,80.46,6,33.79,516.55,30
+482,A,Los Angeles,Normal,Female,Product N,Category A,63.82,7,31.27,478.01,0
+483,A,New York,Member,Male,Product O,Category A,42.14,3,8.85,135.27,27
+484,A,New York,Normal,Female,Product P,Category B,34.91,6,14.66,224.12,0
+485,A,Chicago,Member,Male,Product Q,Category B,90.54,10,63.38,968.78,12
+486,C,New York,Normal,Female,Product R,Category A,64.95,5,22.73,347.48,0
+487,B,New York,Member,Female,Product S,Category B,41.97,5,14.69,224.54,10
+488,C,Chicago,Normal,Male,Product T,Category A,7.55,6,3.17,48.47,0
+489,C,New York,Normal,Female,Product U,Category A,85.97,4,24.07,367.95,0
+490,A,Los Angeles,Member,Male,Product V,Category C,29.19,2,4.09,62.47,47
+491,A,Chicago,Member,Female,Product W,Category C,15.35,6,6.45,98.55,6
+492,B,New York,Normal,Female,Product X,Category B,92.87,1,6.5,99.37,0
+493,B,Chicago,Member,Female,Product Y,Category A,37.6,4,10.53,160.93,25
+494,C,Chicago,Member,Female,Product Z,Category B,56.55,8,31.67,484.07,20
+495,B,Chicago,Normal,Female,Product A,Category B,11.71,4,3.28,50.12,0
+496,A,Chicago,Normal,Male,Product B,Category C,10.45,3,2.19,33.54,0
+497,A,New York,Member,Male,Product C,Category B,96.07,10,67.25,1027.95,32
+498,B,New York,Member,Female,Product D,Category A,56.96,7,27.91,426.63,29
+499,B,Los Angeles,Member,Male,Product E,Category A,18.59,1,1.3,19.89,36
+500,A,Los Angeles,Member,Male,Product F,Category C,91.86,1,6.43,98.29,25
